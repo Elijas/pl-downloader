@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pl-downloader"
+version = "0.1.0"
+description = ""
+authors = ["Elijas <4084885+Elijas@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+playwright = "^1.44.0"
+notebook = "^7.2.1"
+ipykernel = "^6.29.4"
+tqdm = "^4.66.4"
+jupyter = "^1.0.0"
+ipywidgets = "^8.1.3"
+aiofiles = "^23.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
