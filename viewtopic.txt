@@ -1,0 +1,6 @@
+const links = Array.from(document.querySelector('#search-results').querySelectorAll('a'))
+.filter(link => link.href.includes('/viewtopic.php?t='))
+.map(link => link.href)
+.join('\n');
+console.log(links);
+copy(links);
